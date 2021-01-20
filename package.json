@@ -6,9 +6,10 @@
   "scripts": {
     "serve": "webpack serve",
     "prod": "NODE_ENV='production' webpack",
-    "dev": "NODE_ENV='development' webpack"
+    "dev": "NODE_ENV='development' webpack",
+    "install": "npm install --production=false"
   },
-  "author": "",
+  "author": "ilnur-s",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",

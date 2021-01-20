@@ -7,7 +7,9 @@ html(lang="ru")
   body
     .form-wrapper
       form(class="search-form")
-        label(class="search-form__label")
-          input(class="search-form__input" type="text" name="search-input" value="" placeholder="Введите название статьи")
-        button(class="search-form__button" type="submit" name="search-button") Поиск
+        label(class="search-form__label" for="search-form__input")
+          img(class="search-form__img")
+        br
+        input(class="search-form__input" id="search-form__input" type="text" name="search-input" value="" placeholder="Введите название статьи")
+        button(class="search-form__button" type="submit" name="search-button") Найти
       ul(class="article-cards")
